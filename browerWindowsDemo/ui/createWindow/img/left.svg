@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="newWidget-white" transform="translate(-1438.000000, -629.000000)" fill="#999999" fill-rule="nonzero">
+            <g id="Group-34-Copy" transform="translate(442.000000, 162.000000)">
+                <polygon id="Arrow" transform="translate(1000.800000, 475.000000) scale(-1, 1) translate(-1000.800000, -475.000000) " points="996 468.62 997.615 467 1005.6 475 1005.6 475 1005.6 475 997.615 483 996 481.38 1002.365 475"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

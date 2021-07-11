@@ -1,0 +1,1590 @@
+{
+	"welcome": {
+		"chinese": "欢迎页",
+		"english": "welcome"
+	},
+	"newProject": {
+		"chinese": "新建项目",
+		"english": "New Project"
+	},
+	"nameLabel": {
+		"chinese": "应用名称",
+		"english": "App Name"
+	},
+	"rpkLabel": {
+		"chinese": "rpk包名",
+		"english": "Package Name"
+	},
+	"inputProjectName": {
+		"chinese": "应用名称与应用商店保存的名称一致，用于在桌面图标、弹窗等处显示应用名称",
+		"english": "Same as that used in App Store, the app name is displayed on desktop icons and windows."
+	},
+	"inputRpkName": {
+		"chinese": "确认与原生应用的包名不一致，由以.分隔的字母组成，推荐采用com.company.module的格式",
+		"english": "Composed of letters separated by ., the com.company.module format is recommended."
+	},
+	"workspaceLabel": {
+		"chinese": "工作空间",
+		"english": "WorkSpace"
+	},
+	"commonTemplateLabel": {
+		"chinese": "通用模板",
+		"english": "Common template"
+	},
+	"industryTemplateLabel": {
+		"chinese": "行业模板",
+		"english": "Industry template"
+	},
+	"version": {
+		"chinese": "版本：",
+		"english": "Version："
+	},
+	"descriptions": {
+		"chinese": "简介：",
+		"english": "Description："
+	},
+	"infoMsg": {
+		"chinese": "应用名称超长, 长度为1-64个字符。应该与应用商店保存的名称一致，用于在桌面图标、弹窗等处显示应用名称",
+		"english": "The app name is overlong. Only 1 to 64 characters are allowed. The app name should be the same as that used in App Store. It is displayed on desktop icons and windows."
+	},
+	"infoMsg_2": {
+		"chinese": "应用名称不能为空！",
+		"english": "This field cannot be left blank."
+	},
+	"infoMsgRpk": {
+		"chinese": "包名不合法，由数字、字母、下划线、\".\"组成，必须以字母开头，以数字、字母或下划线结尾，同时必须包含\".\"，推荐采用com.company.module的格式。",
+		"english": "The package name is illegal and consists of numbers, letters, underscores, and '.'. It must start with a letter and end with numbers, letters or underscores. It must also contain '.'.  Recommended format: 'com.company.module'."
+	},
+	"infoMsgRpk_2": {
+		"chinese": "rpk包名不能为空！",
+		"english": "This field cannot be left blank."
+	},
+	"infoMsgRpk_3": {
+		"chinese": "工作区间路径不能含有中文！",
+		"english": "Chinese characters are not allowed."
+	},
+	"infoMsgRpk_4": {
+		"chinese": "rpk包名不能超过255个字符",
+		"english": "Length: 1–255 characters"
+	},
+	"infoMsgRpk_5": {
+		"chinese": "包名不能以保留字段.h5.generated结尾。",
+		"english": "The package name cannot end with the reserved words '.h5.generated'."
+	},
+	"projectExistedWarn": {
+		"chinese": "当前工作空间已有相同Rpk包名的工程！",
+		"english": "The project with the same RPK name already exists in the current workspace."
+	},
+	"projectFolderName": {
+		"chinese": "路径中包含的文件夹名称,只允许使用数字、字母大小写、空格、“_”、“.”,“-”",
+		"english": "For the folder name contained in the path, only numbers, uppercase and lowercase letters, spaces, '_', '.', '-' are allowed."
+	},
+	"manifestFileNotExist": {
+		"chinese": "manifest.json文件不存在！",
+		"english": "manifest.json file is not exist!"
+	},
+	"newCard": {
+		"chinese": "新建卡片",
+		"english": "New Widget"
+	},
+	"newCardProject": {
+		"chinese": "新建卡片工程",
+		"english": "New Widget Project"
+	},
+	"universalTemplate": {
+		"chinese": "通用模板",
+		"english": "Universal Template"
+	},
+	"verticalTemplate": {
+		"chinese": "垂类模板",
+		"english": "Vertical Template"
+	},
+	"versionTitle": {
+		"chinese": "版本：",
+		"english": "Version:"
+	},
+	"descriptionTitle": {
+		"chinese": "简介：",
+		"english": "Description:"
+	},
+	"universalWidget": {
+		"chinese": "通用卡片",
+		"english": "Universal Widget"
+	},
+	"verticalWidget": {
+		"chinese": "垂类卡片",
+		"english": "Vertical Widget"
+	},
+	"widget": {
+		"chinese": [
+			{
+				"title": "空白卡片",
+				"description": "适应于需自定义卡片样式情况，需配合布局功能使用。",
+				"imgPath": "../../images/images_zh/empty.png"
+			},
+			{
+				"title": "图文卡片-1",
+				"description": "适用于常用图文搭配卡片，包括单组文本信息与图片元素。",
+				"imgPath": "../../images/images_zh/image_and_text_1.png"
+			},
+			{
+				"title": "图文卡片-2",
+				"description": "适用于常用图文搭配卡片，包括多组文本信息与图片元素。",
+				"imgPath": "../../images/images_zh/image_and_text_2.png"
+			},
+			{
+				"title": "文本卡片",
+				"description": "适用于通用文本信息卡片，包括标题与正文元素，不可添加图片。",
+				"imgPath": "../../images/images_zh/only_text.png"
+			},
+			{
+				"title": "数据卡片-1",
+				"description": "适用于文本信息的卡片，包括单组文本信息与图片元素。",
+				"imgPath": "../../images/images_zh/data1.png"
+			},
+			{
+				"title": "数据卡片-2",
+				"description": "适用于文本信息的卡片，包括多组文本信息，不可添加图片。",
+				"imgPath": "../../images/images_zh/data2.png"
+			},
+			{
+				"title": "宫格卡片-1",
+				"description": "适用于以图片为主要信息的卡片，只能包含2个信息组。",
+				"imgPath": "../../images/images_zh/palace_type_1.png"
+			},
+			{
+				"title": "宫格卡片-2",
+				"description": "适用于以图片为主要信息的卡片，只能包含3个信息组。",
+				"imgPath": "../../images/images_zh/palace_type_2.png"
+			},
+			{
+				"title": "3宫格（入口类）复合模版",
+				"description": "3宫格（入口类）复合模版",
+				"imgPath": "../../images/images_zh/grid_entry_1.png"
+			},
+			{
+				"title": "4宫格（入口类）复合模版",
+				"description": "4宫格（入口类）复合模版",
+				"imgPath": "../../images/images_zh/grid_entry_2.png"
+			},
+			{
+				"title": "5宫格（入口类）复合模版",
+				"description": "5宫格（入口类）复合模版",
+				"imgPath": "../../images/images_zh/grid_entry_3.png"
+			},
+			{
+				"title": "列表复合模版1",
+				"description": "列表复合模版1",
+				"imgPath": "../../images/images_zh/list_entry_1.png"
+			},
+			{
+				"title": "列表复合模版2",
+				"description": "列表复合模版2",
+				"imgPath": "../../images/images_zh/list_entry_2.png"
+			},
+			{
+				"title": "地图卡片",
+				"description": "适用于地图",
+				"imgPath": "../../images/images_zh/map_type.png"
+			},
+			{
+				"title": "赛事卡片",
+				"description": "赛事型卡片",
+				"imgPath": "../../images/images_zh/match_type.png"
+			},
+			{
+				"title": "新闻资讯卡片",
+				"description": "新闻资讯型卡片",
+				"imgPath": "../../images/images_zh/news_and_information_type.png"
+			},
+			{
+				"title": "快递卡片",
+				"description": "快递类卡片",
+				"imgPath": "../../images/images_zh/express_type.png"
+			},
+			{
+				"title": "电影卡片",
+				"description": "电影类卡片",
+				"imgPath": "../../images/images_zh/film_type.png"
+			},
+			{
+				"title": "股票类卡片1",
+				"description": "股票类卡片1",
+				"imgPath": "../../images/images_zh/shares_type_1.png"
+			},
+			{
+				"title": "股票类卡片2",
+				"description": "股票类卡片2",
+				"imgPath": "../../images/images_zh/shares_type_2.png"
+			},
+			{
+				"title": "股票类卡片3",
+				"description": "股票类卡片3",
+				"imgPath": "../../images/images_zh/shares_type_3.png"
+			},
+			{
+				"title": "股票类卡片4",
+				"description": "股票类卡片4",
+				"imgPath": "../../images/images_zh/shares_type_4.png"
+			},
+			{
+				"title": "股票类卡片5",
+				"description": "股票类卡片5",
+				"imgPath": "../../images/images_zh/shares_type_5.png"
+			},
+			{
+				"title": "股票类卡片6",
+				"description": "股票类卡片6",
+				"imgPath": "../../images/images_zh/shares_type_6.png"
+			},
+			{
+				"title": "外卖类卡片1",
+				"description": "外卖类卡片1",
+				"imgPath": "../../images/images_zh/takeout_food_type_1.png"
+			},
+			{
+				"title": "外卖类卡片2",
+				"description": "外卖类卡片2",
+				"imgPath": "../../images/images_zh/takeout_food_type_2.png"
+			},
+			{
+				"title": "外卖类卡片3",
+				"description": "外卖类卡片3",
+				"imgPath": "../../images/images_zh/takeout_food_type_3.png"
+			},
+			{
+				"title": "出行类卡片1",
+				"description": "出行类卡片1",
+				"imgPath": "../../images/images_zh/trip_type_1.png"
+			},
+			{
+				"title": "出行类卡片2",
+				"description": "出行类卡片卡片",
+				"imgPath": "../../images/images_zh/trip_type_2.png"
+			},
+			{
+				"title": "出行类卡片3",
+				"description": "出行类卡片3",
+				"imgPath": "../../images/images_zh/trip_type_3.png"
+			},
+			{
+				"title": "列表类卡片",
+				"description": "列表类卡片",
+				"imgPath": "../../images/images_zh/list_type.png"
+			}
+		],
+		"english": [
+			{
+				"title": "Empty",
+				"description": "Suited for customed widgets, and needs to be used together with layouts.",
+				"imgPath": "../../images/images_en/empty.png"
+			},
+			{
+				"title": "Image_and_text_1",
+				"description": "Suited for widgets formed of an image and text. Only a single group of text and image are allowed.",
+				"imgPath": "../../images/images_en/image_and_text_1.png"
+			},
+			{
+				"title": "Image_and_text_2",
+				"description": "Suited for widgets formed of an image and text. multiple groups of text and image are allowed.",
+				"imgPath": "../../images/images_en/image_and_text_2.png"
+			},
+			{
+				"title": "Only_text",
+				"description": "Suited for general text widgets, title and body are allowed, not any image.",
+				"imgPath": "../../images/images_en/only_text.png"
+			},
+			{
+				"title": "Data1",
+				"description": "Suited for widgets whose text content is highlighted. Only a single group of text and image are allowed.",
+				"imgPath": "../../images/images_en/data1.png"
+			},
+			{
+				"title": "Data2",
+				"description": "Suited for widgets whose text content is highlighted. Multiple groups of text are acceptable, but not any image.",
+				"imgPath": "../../images/images_en/data2.png"
+			},
+			{
+				"title": "Palace_type_1",
+				"description": "Suited for widgets whose main content is image, takes up to 2 groups of text",
+				"imgPath": "../../images/images_en/palace_type_1.png"
+			},
+			{
+				"title": "Palace_type_2",
+				"description": "Suited for widgets whose main content is image, takes up to 3 groups of text",
+				"imgPath": "../../images/images_en/palace_type_2.png"
+			},
+			{
+				"title": "Three_grid_composite",
+				"description": "Three grids composite widget for entry",
+				"imgPath": "../../images/images_en/grid_entry_1.png"
+			},
+			{
+				"title": "Four_grid_composite",
+				"description": "Four grids composite widget for entry",
+				"imgPath": "../../images/images_en/grid_entry_2.png"
+			},
+			{
+				"title": "Five_grid_composite",
+				"description": "Five grids composite widget for entry",
+				"imgPath": "../../images/images_en/grid_entry_3.png"
+			},
+			{
+				"title": "List_composite_1",
+				"description": "List composite widget for entry",
+				"imgPath": "../../images/images_en/list_entry_1.png"
+			},
+			{
+				"title": "List_composite_2",
+				"description": "List composite widget for entry",
+				"imgPath": "../../images/images_en/list_entry_2.png"
+			},
+			{
+				"title": "Map_type",
+				"description": "Suited for map widgets",
+				"imgPath": "../../images/images_en/map_type.png"
+			},
+			{
+				"title": "Match_type",
+				"description": "Events widget",
+				"imgPath": "../../images/images_en/match_type.png"
+			},
+			{
+				"title": "News_and_information_type",
+				"description": "News and Information widget",
+				"imgPath": "../../images/images_en/news_and_information_type.png"
+			},
+			{
+				"title": "Express_type",
+				"description": "Express widget",
+				"imgPath": "../../images/images_en/express_type.png"
+			},
+			{
+				"title": "Film_type",
+				"description": "Movie widget",
+				"imgPath": "../../images/images_en/film_type.png"
+			},
+			{
+				"title": "Shares_type_1",
+				"description": "Stock widget 1",
+				"imgPath": "../../images/images_en/shares_type_1.png"
+			},
+			{
+				"title": "Shares_type_2",
+				"description": "Stock widget 2",
+				"imgPath": "../../images/images_en/shares_type_2.png"
+			},
+			{
+				"title": "Shares_type_3",
+				"description": "Stock widget 3",
+				"imgPath": "../../images/images_en/shares_type_3.png"
+			},
+			{
+				"title": "Shares_type_4",
+				"description": "Stock widget 4",
+				"imgPath": "../../images/images_en/shares_type_4.png"
+			},
+			{
+				"title": "Shares_type_5",
+				"description": "Stock widget 5",
+				"imgPath": "../../images/images_en/shares_type_5.png"
+			},
+			{
+				"title": "Shares_type_6",
+				"description": "Stock widget 6",
+				"imgPath": "../../images/images_en/shares_type_6.png"
+			},
+			{
+				"title": "Takeout_food_type_1",
+				"description": "Takeout widget 1",
+				"imgPath": "../../images/images_en/takeout_food_type_1.png"
+			},
+			{
+				"title": "Takeout_food_type_2",
+				"description": "Takeout widget 2",
+				"imgPath": "../../images/images_en/takeout_food_type_2.png"
+			},
+			{
+				"title": "Takeout_food_type_3",
+				"description": "Takeout widget 3",
+				"imgPath": "../../images/images_en/takeout_food_type_3.png"
+			},
+			{
+				"title": "Trip_type_1",
+				"description": "Journey widget 1",
+				"imgPath": "../../images/images_en/trip_type_1.png"
+			},
+			{
+				"title": "Trip_type_2",
+				"description": "Journey widget 2",
+				"imgPath": "../../images/images_en/trip_type_2.png"
+			},
+			{
+				"title": "Trip_type_3",
+				"description": "Journey widget 3",
+				"imgPath": "../../images/images_en/trip_type_3.png"
+			},
+			{
+				"title": "List_type",
+				"description": "List widget",
+				"imgPath": "../../images/images_zh/list_type.png"
+			}
+		]
+	},
+	"cardTitle": {
+		"chinese": "卡片名称",
+		"english": "Widget Name"
+	},
+	"cardTitlePlaceholder": {
+		"chinese": "长度1~255字符",
+		"english": "1–255 characters"
+	},
+	"cardPath": {
+		"chinese": "卡片路径",
+		"english": "Widget Path"
+	},
+	"cardFileName": {
+		"chinese": "卡片文件名",
+		"english": "Widget File Name"
+	},
+	"inputWidgetPathNew": {
+		"chinese": "路径非空, 如ab/d，且在src目录及manifest.json中唯一",
+		"english": "Non-empty, e.g. ab/d. Duplicate card path is not allowed in the src directory and the manifest.json file."
+	},
+	"inputWidgetFileName": {
+		"chinese": "文件名称默认为“index”，只允许使用数字、字母(大小写)和“_”，无后缀名",
+		"english": "No suffix. The default name is 'index'.Allowed: digits, uppercase letters, lowercase letters, and underscores (_)"
+	},
+	"idInput": {
+		"chinese": "id只能包含数字、字母，长度1~255字符，且id包内唯一",
+		"english": "Allowed: digits and letters. Length: 1–255 characters. Duplicate ID is not allowed."
+	},
+	"nameWithoutChinese": {
+		"chinese": "名称不包含中文",
+		"english": "Cannot contain Chinese characters."
+	},
+	"nameLengthLimit": {
+		"chinese": "1-255个字符，不能包含中文。",
+		"english": "Contains 1 to 255 characters，cannot contain Chinese."
+	},
+	"SupportedVendors": {
+		"chinese": "支持厂商",
+		"english": "Supported Vendors"
+	},
+	"parameterDescription": {
+		"chinese": "参数描述",
+		"english": "Parameter description"
+	},
+	"inputTargetManufactorys": {
+		"chinese": "请输入厂商名称,如果有多个，请以“,”分隔；名称不能为空,不包含大写字母,示例：xx,yy，xx, yy代表厂商的小写品牌英文名称",
+		"english": "Enter vendor names，if multiple, separate them with “,”;. Non-empty. Not allowed: uppercase letters. Example: xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"inputTargetManufactorysTitle": {
+		"chinese": "由于各厂商的UI风格有不同的要求，应用开发商可能会针对不同的厂商提供不同的卡片，因此需要一个字段明确说明卡片所适用的厂商范围，防止不必要的审核及驳回流程。示例：xx, yy，xx, yy代表厂商的小写品牌英文名称",
+		"english": "Each vendor has its own UI style requirements, and app developers may provide different cards for different vendors. Therefore, one field is required to specify the vendor scope to which cards are applicable to avoid unnecessary review and rejection processes. Example: xx, yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"cardWidth": {
+		"chinese": "卡片宽度",
+		"english": "Width"
+	},
+	"inputWidthTitle": {
+		"chinese": "自定义宽度",
+		"english": "Customize Width"
+	},
+	"inputWidth": {
+		"chinese": "请自定义宽度",
+		"english": "Please Customize The Width"
+	},
+	"inputWidthErrorMsg": {
+		"chinese": "自定义宽度范围应在 1-750",
+		"english": "Customize The Width 1-750"
+	},
+	"minPlatformVersion": {
+		"chinese": "最小平台版本号",
+		"english": "Minimum Platform Version Number"
+	},
+	"justNumber": {
+		"chinese": "(只允许输入数字)",
+		"english": "(Only digits are allowed.)"
+	},
+	"inputWidgetVersion": {
+		"chinese": "支撑的最小平台版本号,最小1000，不提供则同rpk的版本号。",
+		"english": "The minimum platform version number is 1000. If the version number is not provided, the RPK version number is used."
+	},
+	"userRight": {
+		"chinese": "用户权限",
+		"english": "User Rights"
+	},
+	"cardOption": {
+		"chinese": "卡片选项",
+		"english": "Widget Option"
+	},
+	"jsonErrorConfigWidget": {
+		"chinese": "json-error-configWidget------读取json文件信息失败,请检查json文件格式是否正确!",
+		"english": "json-error-configWidget — Failed to read the json file. Check whether the file format is correct."
+	},
+	"nameExist": {
+		"chinese": "此名称已存在",
+		"english": "The name already exists."
+	},
+	"paramSample": {
+		"chinese": "参数值示例，用于指导测试运营输入验证、自动化测试工具使用",
+		"english": "The sample value provides a guidance for verifying test operation inputs and using automated test tools."
+	},
+	"paramValueSample": {
+		"chinese": "参数值示例",
+		"english": "The sample value"
+	},
+	"locationPermission": {
+		"chinese": "地理位置权限",
+		"english": "Geographical Location Permission"
+	},
+	"writeCalendarPermission": {
+		"chinese": "写日历权限",
+		"english": "Write Calendar Permission"
+	},
+	"infoWidgetName": {
+		"chinese": "长度1~255字符",
+		"english": "1–255 characters"
+	},
+	"cardNameNotNull": {
+		"chinese": "文件名称非空,只允许使用数字、字母(大小写)和下划线“_”",
+		"english": "Non-empty. Allowed: digits, uppercase letters, lowercase letters, and underscores (_)"
+	},
+	"cardNameIsResevedDeviceName": {
+		"chinese": "文件名不能是操作系统保留设备名",
+		"english": "The file name should not be the same as any OS reserved device name"
+	},
+	"infoWidgetId": {
+		"chinese": "id只能包含数字、字母，长度1~255字符，且id包内唯一",
+		"english": "Allowed: digits and letters. Length: 1–255 characters. Duplicate ID is not allowed."
+	},
+	"infoWidgetPath": {
+		"chinese": "路径不可以为空",
+		"english": "This field cannot be left blank."
+	},
+	"infoWidgetMinPlatformVersion": {
+		"chinese": "最小平台版本号必须为数字，且大于等于1000",
+		"english": "This field must be a digit that is greater than or equal to 1000."
+	},
+	"infocorrectComponany": {
+		"chinese": "请输入正确的厂商名称，如:  xx,yy，xx, yy代表厂商的小写品牌英文名称",
+		"english": "Enter correct vendor names, e.g.  xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"theFieldNameArrayNotNull": {
+		"chinese": "厂商名称不能为空:如: xx,yy,xx, yy代表厂商的小写品牌英文名称",
+		"english": "This field cannot be left blank, e.g. xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"theFieldNotContainNull": {
+		"chinese": "厂商名称不能包含为空的字符.如:  xx,yy,xx, yy代表厂商的小写品牌英文名称",
+		"english": "This field cannot contain null characters, e.g. xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"theFieldOnlyLowercase": {
+		"chinese": "厂商名称只能包含小写字母.如:  xx,yy,xx, yy代表厂商的小写品牌英文名称",
+		"english": "This field can contain only lowercase letters, e.g. xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"theFieldNameNotNull": {
+		"chinese": "厂商名称不能为空,如:  xx,yy，xx, yy代表厂商的小写品牌英文名称",
+		"english": "This field cannot be left blank, e.g. xx,yy. xx and yy indicate the lowercase English names of vendor brands."
+	},
+	"widgetParameterInManifest": {
+		"chinese": "请在manifest.json配置卡片参数",
+		"english": "Set card parameters in the manifest.json file."
+	},
+	"widgetParameterInLaunch": {
+		"chinese": "请在launch.json配置页面参数",
+		"english": "Set page parameters in the launch.json file."
+	},
+	"advancedOptions": {
+		"chinese": "高级选项",
+		"english": "Options"
+	},
+	"description": {
+		"chinese": "描述",
+		"english": "Description"
+	},
+	"param": {
+		"chinese": "参数",
+		"english": "Param"
+	},
+	"paramName": {
+		"chinese": "参数名称",
+		"english": "Param Name"
+	},
+	"necessaryOrNot": {
+		"chinese": "是否必填",
+		"english": "Is it required"
+	},
+	"advancedParamSample": {
+		"chinese": "参数样例值",
+		"english": "Param Sample"
+	},
+	"widgetModule": {
+		"chinese": "卡片模板",
+		"english": "Widget Template"
+	},
+	"widgetOptionTitle": {
+		"chinese": "卡片选项",
+		"english": "Widget Option"
+	},
+	"cancel": {
+		"chinese": "取消",
+		"english": "Cancel"
+	},
+	"ok": {
+		"chinese": "确定",
+		"english": "Ok"
+	},
+	"newPage": {
+		"chinese": "新建页面",
+		"english": "New Page"
+	},
+	"pageFileName": {
+		"chinese": "页面文件名",
+		"english": "Page File Name"
+	},
+	"inputPageName": {
+		"chinese": "页面文件名默认为“index”，只允许使用字母，数字，“_”，长度1-255",
+		"english": "The default name is 'index'. Allowed: letters, digits, and underscores (_). Length: 1–255 characters"
+	},
+	"pagePath": {
+		"chinese": "页面路径",
+		"english": "Page Path"
+	},
+	"inputPagePath": {
+		"chinese": "非空，且只允许使用字母，数字，“/”，如 abc/def，且路径在“src”目录及“manifest.json”中唯一",
+		"english": "Required, accepts: letters, digits, and backslash (/). e.g. abc/def. Duplicate page path is not allowed in the \"src\" directory and the \"manifest.json\" file."
+	},
+	"weappInputPagePath": {
+		"chinese": "非空，且只允许使用字母，数字，“/”，如 abc/def，且路径在“src”目录及“app.json”中唯一",
+		"english": "Required, accepts: letters, digits, and backslash (/). e.g. abc/def. Duplicate page path is not allowed in the \"src\" directory and the \"app.json\" file."
+	},
+	"pageFilterRegular": {
+		"chinese": "必须填写正则表达式，如https?://.*可以匹配所有http和https类型的网址",
+		"english": "Regular expression, e.g. https?://.*, which matches all HTTP and HTTPS URLs"
+	},
+	"HDIMagesFollows": {
+		"chinese": "这里有高清大图",
+		"english": "HD images are as follows:"
+	},
+	"pageOptions": {
+		"chinese": "页面分类",
+		"english": "Page Options"
+	},
+	"pageMall": {
+		"chinese": "电商",
+		"english": "Mall"
+	},
+	"pageBook": {
+		"chinese": "阅读",
+		"english": "Book"
+	},
+	"pageTakeaway": {
+		"chinese": "外卖",
+		"english": "TakeAway"
+	},
+	"pageEducation": {
+		"chinese": "教育",
+		"english": "Education"
+	},
+	"pageNews": {
+		"chinese": "新闻",
+		"english": "News"
+	},
+	"pageOther": {
+		"chinese": "其他",
+		"english": "Other"
+	},
+	"weappHelloWorld": {
+		"chinese": "Hello World",
+		"english": "Hello World"
+	},
+	"selectTemplate": {
+		"chinese": "选择模板",
+		"english": "Select Template"
+	},
+	"settings": {
+		"chinese": "高级选项",
+		"english": "Options"
+	},
+	"cancelBtn": {
+		"chinese": "取消",
+		"english": "Cancel"
+	},
+	"okBtn": {
+		"chinese": "确定",
+		"english": "OK"
+	},
+	"ideName": {
+		"chinese": "华为快应用 IDE ",
+		"english": "Huawei QuickApp IDE"
+	},
+	"ideVersion": {
+		"chinese": "版本",
+		"english": "Version"
+	},
+	"ideFramework": {
+		"chinese": "架构",
+		"english": "Framework"
+	},
+	"ideEngineVersion": {
+		"chinese": "引擎版本",
+		"english": "Engine Version"
+	},
+	"ideRenderer": {
+		"chinese": "渲染器",
+		"english": "Renderer"
+	},
+	"ideContactInformation": {
+		"chinese": "联系方式",
+		"english": "Contact information"
+	},
+	"ideCompilerVersion": {
+		"chinese": "编译器版本",
+		"english": "Compiler Version"
+	},
+	"iKnowBtn": {
+		"chinese": "我知道了",
+		"english": "I know"
+	},
+	"openSourceStatement": {
+		"chinese": "开源声明",
+		"english": "Open Source Statement"
+	},
+	"privacyPolicy": {
+		"chinese": "华为开发者联盟与隐私的声明",
+		"english": "Statement About HUAWEI Developer and Privacy"
+	},
+	"updateVersion": {
+		"chinese": "版本更新说明",
+		"english": "What's New"
+	},
+	"configCardTitle": {
+		"chinese": "卡片",
+		"english": "Widget"
+	},
+	"configPageTitle": {
+		"chinese": "页面",
+		"english": "Page"
+	},
+	"signSet": {
+		"chinese": "签名设置",
+		"english": "Signature"
+	},
+	"widthConfig": {
+		"chinese": "宽度配置",
+		"english": "Width"
+	},
+	"optionOne": {
+		"chinese": "选项一",
+		"english": "Option One"
+	},
+	"optionTwo": {
+		"chinese": "选项二",
+		"english": "Option Two"
+	},
+	"newConfigPage": {
+		"chinese": "新增配置页",
+		"english": "Add Configuration Page"
+	},
+	"close": {
+		"chinese": "关闭",
+		"english": "Close"
+	},
+	"deleteConfigPage": {
+		"chinese": "删除配置页",
+		"english": "Delete Configuration Page"
+	},
+	"selectPageUri": {
+		"chinese": "请选择页面对应的uri",
+		"english": "Select Page URI"
+	},
+	"noPage": {
+		"chinese": "当前没有可添加的页面",
+		"english": "NO Page"
+	},
+	"inputWidth_error_msg": {
+		"chinese": "名称不包含中文,长度1-255个字符",
+		"english": "This field cannot contain Chinese characters. The length is 1 to 255 characters."
+	},
+	"startParamList": {
+		"chinese": "启动参数列表",
+		"english": "Startup Parameter List"
+	},
+	"create": {
+		"chinese": "新建",
+		"english": "Create"
+	},
+	"save": {
+		"chinese": "保存",
+		"english": "Save"
+	},
+	"back": {
+		"chinese": "返回",
+		"english": "Back"
+	},
+	"delete": {
+		"chinese": "删除",
+		"english": "Delete"
+	},
+	"edit": {
+		"chinese": "编辑",
+		"english": "Edit"
+	},
+	"createStartParam": {
+		"chinese": "新建启动参数",
+		"english": "Create Startup Parameter"
+	},
+	"enterParamName": {
+		"chinese": "请输入参数名称",
+		"english": "Enter a parameter name."
+	},
+	"configParamValue": {
+		"chinese": "参数值",
+		"english": "Parameter Value"
+	},
+	"enterParam": {
+		"chinese": "请输入参数",
+		"english": "Enter a parameter."
+	},
+	"enterDescription": {
+		"chinese": "请输入描述",
+		"english": "Enter description information."
+	},
+	"configPageName": {
+		"chinese": "页面名称",
+		"english": "Page Name"
+	},
+	"sureDeleteParam": {
+		"chinese": "确定删除参数",
+		"english": "Are you sure you want to delete the parameter "
+	},
+	"sureDeleteConfig": {
+		"chinese": "确定删除配置页",
+		"english": "Are you sure you want to delete the page "
+	},
+	"selectCorrectPageUri": {
+		"chinese": "请选择正确的页面uri",
+		"english": "Select a correct page URI."
+	},
+	"configNameExist": {
+		"chinese": "名称已存在",
+		"english": "The name already exists."
+	},
+	"selectAPageUri": {
+		"chinese": "请选择页面uri",
+		"english": "Select a page URI."
+	},
+	"signatureVerification": {
+		"chinese": "支付签名校验",
+		"english": "Payment Signature Verification"
+	},
+	"signatureVerificationTool": {
+		"chinese": "华为支付接口签名校验工具",
+		"english": "Signature Verification Tool of the service.pay Interface"
+	},
+	"productPrice": {
+		"chinese": "商品金额，商品所要支付金额。此金额将会在支付时显示给用户确认。\n注意：\n请保留小数点后两位，如20.00。如果不按照格式传入金额，会导致支付失败。",
+		"english": "Product price, which is the amount to be paid for a product. This price will be displayed to the user for payment confirmation. \nNote: \nShow two decimal places of the price, e.g. 20.00. If the price input format is incorrect, payment fails."
+	},
+	"appID": {
+		"chinese": "应用ID，在华为开发者联盟上获取的APP ID。",
+		"english": "App ID, which is obtained from the Huawei Developer Alliance."
+	},
+	"countryCode": {
+		"chinese": "国家码，用于区分国家信息。如US、CN、MY，符合ISO 3166标准。\n参见：https://www.iso.org/iso-3166-country-codes.html\n如果不填写则默认为CN。",
+		"english": "Country code that differentiates country information, such as US, CN, and MY. It complies with the ISO 3166 standard. \nTo obtain more information about this standard, visit https://www.iso.org/iso-3166-country-codes.html. \nIf this parameter is not set, CN is used by default."
+	},
+	"paymentCurrency": {
+		"chinese": "币种，用于支付的币种。如USD、CNY、MYR等，符合ISO 4217。\n参见：https://www.iso.org/iso-4217-currency-codes.html\n如果不填写则默认为CNY。",
+		"english": "Payment currency, such as USD, CNY, and MYR. It complies with the ISO 4217 standard. \nTo obtain more information about this standard, visit https://www.iso.org/iso-4217-currency-codes.html. \nIf this parameter is not set, CNY is used by default."
+	},
+	"paymentResult": {
+		"chinese": "支付结果回调地址 。\n华为服务器收到后检查该应用有无在开发者联盟配置回调URL，如果配置了则使用应用配置的URL，否则使用此url作为该次支付的回调URL。\n注意：必须是合法的url，长度最大255，不能以'\\'结尾，不能包含get参数。\n例:\n正确：http://domain.com/path\n错误：http://domain.com/path?key=value",
+		"english": "Payment result callback URL. \nAfter receiving the payment request, a Huawei server checks whether the app has been configured with a callback URL on the Huawei Developer Alliance. If configured, the callback URL configured for the app is used. Otherwise, this URL will be used as the callback URL for this payment. \nNote: The URL must be valid and contains a maximum of 255 characters. The URL cannot end with a backslash (\\) and cannot contain the get parameter. \\ne.g. \\ntrue: http://domain.com/path; \nfalse: http://domain.com/path?key=value."
+	},
+	"productDescription": {
+		"chinese": "商品描述，商户对商品的自定义描述。该字段中不能包含特殊字符，包括# \" & / ? $ ^ *:) \\ < > , | % +\"",
+		"english": "Product description that is customized by a merchant for a product. This field cannot contain the following special characters:# \" & / ? $ ^ *:) \\ < > , | % +\""
+	},
+	"productName": {
+		"chinese": "商户对商品的自定义名称。此名称将会在支付时显示给用户确认。该字段中不能包含特殊字符，包括# \" & / ? $ ^ *:) \\ < > , | % +\"",
+		"english": "Product name that is customized by a merchant for a product. The name will be displayed to the user for payment confirmation. This field cannot contain the following special characters:# \" & / ? $ ^ *:) \\ < > , | % +\""
+	},
+	"informationRetained": {
+		"chinese": "商户侧保留信息。\n若该字段有值，在华为支付服务器回调接口中原样返回。",
+		"english": "Information retained by a merchant. \nIf this field contains values, they are returned through the callback interface of a Huawei payment server."
+	},
+	"merchantOrder": {
+		"chinese": "商户订单号。\n来源：开发者应用在支付前定义生成，用于唯一标识一次支付请求。支付平台在服务器回调接口中会原样返回requestId的值。该字段由字母和数字组成，必须在商户内唯一，用于唯一标识一个商户订单。",
+		"english": "Merchant order number. \nSource: The merchant order number is generated by the developer app before payment and is used as the unique identifier of one payment request. The payment platform returns the value of requestId through the callback interface of a server. This field consists of letters and digits, and is the unique identifier of an order."
+	},
+	"productType": {
+		"chinese": "商品类型。\nX4：主题;\nX5：应用商店;\nX6：游戏;\nX7：天际通;\nX8：云空间;\nX9：电子书;\nX10：华为学习;\nX11：音乐;\nX12 视频 ;\nV0：vmall实体商品;\nX31：话费充值;\nX32：机票/酒店;\nX33：电影票;\nX34：团购;\nX35：手机预购;\nX36：公共缴费;\nX37：基金理财;\nX38：彩票;\nX39：流量充值\n如果传入类型错误，会影响风控，请商户按照真实业务类型传入。",
+		"english": "Product type. \nX4: Themes; \nX5: App Store; \nX6: Games; \nX7: SkyTone; \nX8: Cloud; \nX9: E-book; \nX10: iLearning; \nX11: Music; \nX12 Video; \nV0: Vmall physical product; \nX31: Mobile top-up; \nX32: Flight ticket or hotel; \nX33: Movie ticket; \nX34: Group purchase; \nX35: Mobile phone pre-order; \nX36: Payment of utility bills; \nX37: Financial product; \nX38: Lottery; \nX39: Data top-up\n An incorrect product type will affect risk control. Enter the correct product type."
+	},
+	"productNumber": {
+		"chinese": "应用ID，在华为开发者联盟上获取的APP ID所购买商品的PMS编码，用于从PMS系统获取商品信息和价格,此处填写查询到的产品编码，获取产品信息参考getProductDetails，如果在PMS查询不到对应商品，支付失败，PayResult:returnCode将返回PRODUCT_NOT_EXIST错误（该错误码在PayStatusCodes中定义）。",
+		"english": "PMS code of a purchased product, used to obtain product details (such as price) from the PMS. See getProductDetails for how product details are obtained. If a product cannot be found in the PMS system, the payment will fail and the value of PayResult:returnCode will be PRODUCT_NOT_EXIST (defined in PayStatusCodes)."
+	},
+	"merchantID": {
+		"chinese": "商户ID。\n来源：在华为开发者联盟上获取的“支付ID”。",
+		"english": "Merchant ID. \nSource: payment ID obtained from the Huawei Developer Alliance"
+	},
+	"merchantName": {
+		"chinese": "商户名称。\n来源：开发者注册的公司名。",
+		"english": "Merchant name. \nSource: company name registered by a developer"
+	},
+	"paymentResultCallback": {
+		"chinese": "支付结果回调版本。\n请注意，该值可以不传，如果传值则固定值传2，如果不传2会导致支付不成功。",
+		"english": "Payment result callback version. \nNote: Setting this parameter is optional. If the parameter is set, its fixed value is 2. If the value is not 2, payment fails."
+	},
+	"channelInformation": {
+		"chinese": "渠道信息，取值如下 \n 0 代表自有应用，无渠道\n 1 代表应用市场渠道\n 2 代表预装渠道\n3 代表游戏中心",
+		"english": "Channel information. The values are as follows: \n0: Huawei Apps; \n1: AppGallery; \n2: Pre-installed channels; \n3: GameCenter."
+	},
+	"sortParameters": {
+		"chinese": "1、将参与签名的参数按参数名的ASCII码的增序排序，若遇到相同首字母，则看第二个字母，以此类推。\n参与签名的参数原则如下：\na）所有orderInfo传入参数值不为null或者“”，且在本表格中“是否参与签名”标识为“是”的参数需要参与签名。\nb）签名时参数值必须与orderInfo传入参数值保持一致。\n2、排序完成之后，再把所有参数名和参数值的键值对以“&”字符连接起来，得到的字符串即为待签名串。（注意：参数名和参数值请不要进行urlencode）\n3、将待签名字符串使用“支付私钥”通过SHA256WithRSA算法进行签名，得到的字符串即为sign参数的值。“支付私钥”获取方式参见“申请支付服务”。\n具体生成代码请参见“sign签名示例代码”。签名过程建议在服务端进行。",
+		"english": "1. Sort parameters set for signature by the ASCII code of the parameter names in ascending order. For parameter names having the same first letter, sort them by the second letter. This rule applies to other letters. \nThe setting principles of parameters for signature are as follows: \n(1) All parameter values input in Order Info are not null, and parameters marked with \"Yes\" in the Set for Signature column of this table shall be set for signature. \n(2) Parameter values during signature must be the same as those input in Order Info. \n2. After the sorting is complete, use ampersands (&) to connect all key values for parameter names and values. The obtained character string is the to-be-signed string. (Note: Do not use urlencode to display parameter names and values.) \n3. Use the payment private key to set the to-be-signed string based on the SHA256WithRSA algorithm. The obtained character string is the value of the sign parameter. For details about how to obtain a payment private key, see Applying for a Payment Service. \nFor details about the generated code, see the signature code example of the sign parameter. It is recommended that signature be completed on a server."
+	},
+	"paymentPublic": {
+		"chinese": "公钥，在华为开发者联盟上开通支付服务获取的“支付公钥”，获取方式参见“申请支付服务”。",
+		"english": "Payment public key obtained by enabling the payment service on the Huawei Developer Alliance. For details about how to obtain a public key, see Applying for a Payment Service."
+	},
+	"orderInfo": {
+		"chinese": "订单数据",
+		"english": "Order Info"
+	},
+	"keyType": {
+		"chinese": "价格类型 固定值1：应用内非消耗品。",
+		"english": "Fixed value, 1 for merchant's private key."
+	},
+	"timeStamp": {
+		"chinese": "时间戳，距离1970年的毫秒数。",
+		"english": "The time between now and year 1970, in msec."
+	},
+	"pageNumber": {
+		"chinese": "请求页码，不传默认为1。每页默认查100条记录。",
+		"english": "Requested page number. The default value is 1. By default, 100 records are queried on each page."
+	},
+	"purchaseProductId": {
+		"chinese": "所购买商品的PMS编码，如果不传该参数，则查询所有的非消耗商品信息。",
+		"english": "PMS code of the purchased product. If this parameter is not passed, all non-consumables information is queried."
+	},
+	"purchasePriceType": {
+		"chinese": "价格类型 固定值3：应用内非消耗品",
+		"english": "Price Type Fixed Value 3: non-consumables in the app."
+	},
+	"parseFailed": {
+		"chinese": "订单数据解析失败，请输入正确的JSON格式",
+		"english": "Failed to parse the order information. Enter a correct JSON format."
+	},
+	"orderRequestId": {
+		"chinese": "商户订单号。开发者应用在支付前生成，用来唯一标识一次支付请求。注意：该字段中不能包含特殊字符，包括# \" & / ? $ ^ *:) \\ <> , | .,不支持中文。",
+		"english": "Order number generated by developer and used to identify a payment request. Each request has a unique ID. A merchant's order ID that contains letters and numbers only, and is unique to this merchant."
+	},
+	"missingMandatory": {
+		"chinese": "必填项缺失",
+		"english": "Missing mandatory items"
+	},
+	"dataTypeIncorrect": {
+		"chinese": "数据类型不正确，应该为",
+		"english": "The data type is incorrect. Enter"
+	},
+	"paymentPrivate": {
+		"chinese": "支付私钥",
+		"english": "Payment Private Key"
+	},
+	"privateKeycorrect": {
+		"chinese": "支付私钥解析失败，请检查私钥是否正确",
+		"english": "Failed to parse the payment private key. Check whether the private key is correct."
+	},
+	"OrderFailed": {
+		"chinese": "失败，订单数据中的sign和当前生成的sign不一致",
+		"english": "Failed. The sign parameter in Order Info is inconsistent with the current sign parameter."
+	},
+	"checkSignatures": {
+		"chinese": "此工具旨在帮助开发者调用“华为支付接口”时，检测传入参数中生成的签名是否正确。",
+		"english": "This tool enables developers to check whether signatures generated in input parameters are correct by calling the service.pay interface."
+	},
+	"signatureData": {
+		"chinese": "1、在\"签名数据\"中填入JSON格式的接口参数",
+		"english": "1. Enter an interface parameter in JSON format for Signature Data."
+	},
+	"signatureObtain": {
+		"chinese": "2、点击“生成签名”获取签名结果：包括签名正确性、签名错误信息、正确的源签名字符串和最终签名信息",
+		"english": "2. Click Generate Signature to obtain the signature result containing information about signature correctness, signature errors, correct source signature strings, and final signatures."
+	},
+	"checksTools": {
+		"chinese": "1、本工具只校验签名算法是否正确，无法校验“支付私钥”是否正确，如通过本工具校验通过，但实际接口返回签名失败，请检查：",
+		"english": "1. This tool only checks whether signature verification algorithms are correct but fails to check whether the payment private key is correct. If a signature passes verification but fails to be returned by the calling interface, check the following items:"
+	},
+	"checksParameter1": {
+		"chinese": "a、签名使用的“支付私钥”是否正确。",
+		"english": "(1). Check whether the payment private key used for signature is correct."
+	},
+	"checksParameter2": {
+		"chinese": "b、参与签名的参数个数是否与接口传入参数个数保持一致，参数名称是否与接口文档保持一致。",
+		"english": "(2). Check whether the number of parameters set for signature equals that input through the interface and whether the parameter names are consistent with those in the interface documents."
+	},
+	"dataSources": {
+		"chinese": "输入JSON数据源",
+		"english": "Enter data sources in JSON format."
+	},
+	"InputPaymentPrivate": {
+		"chinese": "请输入支付私钥",
+		"english": "Enter a payment private key."
+	},
+	"uploadedPaymentKey": {
+		"chinese": "私钥不会上传到服务器",
+		"english": "The private key is not uploaded to the server."
+	},
+	"generateSignature": {
+		"chinese": "生成签名",
+		"english": "Generate Signature"
+	},
+	"verificationFailures": {
+		"chinese": "数据校验失败",
+		"english": "Data verification failures are as follows:"
+	},
+	"errorInfo": {
+		"chinese": "错误原因",
+		"english": "Error Info"
+	},
+	"paymentCallback": {
+		"chinese": "华为服务器收到后检查该应用有无在开发者联盟配置回调URL，如果配置了则使用应用配置的URL，否则使用此url作为该次支付的回调URL。",
+		"english": "After receiving the payment request, a Huawei server checks whether the app has been configured with a callback URL on the Huawei Developer Alliance. If configured, the callback URL configured for the app is used. Otherwise, this URL will be used as the callback URL for this payment."
+	},
+	"checkURL": {
+		"chinese": "注意：必须是合法的url，长度最大255，不能以‘\\’结尾，不能包含get参数。",
+		"english": "Note: The URL must be valid and contains a maximum of 255 characters. The URL cannot end with a backslash (\\) and cannot contain the get parameter."
+	},
+	"formatVerifyFailed": {
+		"chinese": "格式校验失败，正则",
+		"english": "Failed to verify the format. The regular expression is"
+	},
+	"paymentCallbackURL": {
+		"chinese": "支付结果回调地址。",
+		"english": "Payment result callback URL."
+	},
+	"sourceCharacter": {
+		"chinese": "源字符串",
+		"english": "Source Character String"
+	},
+	"instructions": {
+		"chinese": "使用说明",
+		"english": "Instructions"
+	},
+	"attention": {
+		"chinese": "注意事项",
+		"english": "Matters needing attention"
+	},
+	"signatureType": {
+		"chinese": "签名类型：",
+		"english": "Signature: "
+	},
+	"interfaceSelect": {
+		"chinese": "接口选择：",
+		"english": "Interface: "
+	},
+	"clear": {
+		"chinese": "清除",
+		"english": "Clear"
+	},
+	"key": {
+		"chinese": "键",
+		"english": "Key"
+	},
+	"value": {
+		"chinese": "值",
+		"english": "Value"
+	},
+	"paramInstructions": {
+		"chinese": "参数说明",
+		"english": "Parameter Instructions"
+	},
+	"checkSignature": {
+		"chinese": "签名校验：",
+		"english": "Signatures:"
+	},
+	"signatures": {
+		"chinese": "签名信息：",
+		"english": "Signatures:"
+	},
+	"success": {
+		"chinese": "成功",
+		"english": "Success"
+	},
+	"thisCard": {
+		"chinese": "当前卡片",
+		"english": "this card"
+	},
+	"addComponentPropmt": {
+		"chinese": "“$0” 可添加到 “$1”",
+		"english": "'$0' can added to '$1'"
+	},
+	"replaceComponentPropmt": {
+		"chinese": "“$0” 可替换 “$1”",
+		"english": "'$1' can be replaced with '$0'"
+	},
+	"dragComponent": {
+		"chinese": "Warn: 请将组件拖动至当前ux文件的 <template></template> 标签中",
+		"english": "Warn: Drag components to the <template></template> tag of the ux file."
+	},
+	"layoutCoexistMsg": {
+		"chinese": "Warn: 单张卡片中layout2-1和layout2-2不可同时使用！",
+		"english": "Warn: The 'layout2-1' and the 'layout2-2' can't coexist in a card!"
+	},
+	"fourLayoutWarnMsg": {
+		"chinese": "Warn: 单张卡片最多只能使用4个布局！",
+		"english": "Warn: FOUR layout components at most in a card!"
+	},
+	"noLayoutInEmptyCardWarnMsg": {
+		"chinese": "Warn: 空白模板需先添加布局，才可使用组件！",
+		"english": "Warn: Blank templates need to be added before the component can be used."
+	},
+	"ratingExist": {
+		"chinese": "Warn: 单张卡片最多只能使用一个星评辅助！",
+		"english": "Warn: Only ONE layout components at most in a card!"
+	},
+	"componentInsertable": {
+		"chinese": "“$0” 可插入容器 “$1” ",
+		"english": "'$0' can added to '$1'"
+	},
+	"componentNotInsertable": {
+		"chinese": "Warn: 此组件不支持插入自定义子组件。",
+		"english": "Warn: This component does not support inserting custom subcomponents."
+	},
+	"addComponentToCardErrorMsg": {
+		"chinese": "给项目添加组件失败！",
+		"english": "Adding components to the project failed!"
+	},
+	"deleteSuccess": {
+		"chinese": "删除成功",
+		"english": "Delete Success"
+	},
+	"getLaunchDataFailed": {
+		"chinese": "获取launch.json数据失败,请检查json文件数据格式是否正确!",
+		"english": "Failed to obtain the data from the launch.json file. Check whether the format of data in the launch.json file is correct."
+	},
+	"getJsonDataFailed": {
+		"chinese": "获取json数据失败,请检查json文件数据格式是否正确!",
+		"english": "Failed to obtain the data from the JSON file. Check whether the format of data in the JSON file is correct."
+	},
+	"canNotParseJsonFile": {
+		"chinese": "json文件无法解析!!!!!",
+		"english": "Failed to parse the JSON file."
+	},
+	"readAndWriteLaunchDataFailed": {
+		"chinese": "读写launch.json数据失败,请检查json文件数据格式是否正确!",
+		"english": "Failed to read and write the launch. json file.Check whether the format of data in the launch.json file is correct."
+	},
+	"getJsonFileInformationFailed": {
+		"chinese": "获取json文件信息失败,请检查json文件数据格式是否正确",
+		"english": "Failed to read and write the JSON file. Check whether the format of data in the launch.json file is correct."
+	},
+	"createOrOpenProject": {
+		"chinese": "请先创建或打开项目",
+		"english": "Create or open a project first."
+	},
+	"weAppNotSupportWidget": {
+		"chinese": "小程序转换项目不支持添加卡片!",
+		"english": "This quickApp from weApp can not add widget yet!"
+	},
+	"createSuccess": {
+		"chinese": "创建成功",
+		"english": "Creation successful."
+	},
+	"pageCreateFailed": {
+		"chinese": "页面创建失败!",
+		"english": "Failed to create a page."
+	},
+	"selectFileType": {
+		"chinese": "请选择新建文件类型：",
+		"english": "Select New File Type:"
+	},
+	"subCatalogSetSuccess": {
+		"chinese": "子包设置成功！",
+		"english": "Subpackage setting successful."
+	},
+	"cancelSubCatalogSuccess": {
+		"chinese": "取消子包成功！",
+		"english": "Subpackage settings canceled successfully."
+	},
+	"readManifestFileInformationFailed": {
+		"chinese": "读取manifest.json文件信息失败",
+		"english": "Failed to read the manifest.json file."
+	},
+	"readWidgetFailed": {
+		"chinese": "读取卡片失败,请检查manifest.json文件格式是否正确",
+		"english": "Failed to read the widget. Check whether the manifest.json file format is correct."
+	},
+	"folderName": {
+		"chinese": "文件夹名称",
+		"english": "The folder name"
+	},
+	"isWrong": {
+		"chinese": "不合法。",
+		"english": "is wrong."
+	},
+	"debuggerAndOncePreviewUnable": {
+		"chinese": "项目和路径中文件夹名称只允许使用数字、字母（大小写）、下划线。否则会导致调试和预览功能不可用！",
+		"english": "Only digits, letters(upper and lower), underscores (_) are allowed in project and path folder name. Otherwise, the debugging and preview will be unavailable!"
+	},
+	"parameterConfig": {
+		"chinese": "参数配置",
+		"english": "Parameter Config"
+	},
+	"editParameter": {
+		"chinese": "编辑参数 ",
+		"english": "Edit Parameter "
+	},
+	"configWidgetJsonFileReadFailed": {
+		"chinese": "json-error-configWidget------json文件读取失败!",
+		"english": "json-error-configWidget ------ Failed to read the JSON file."
+	},
+	"configWidgetEditFailed": {
+		"chinese": "json-error-configWidget------编辑失败,无法读写json文件!!",
+		"english": "json-error-configWidget ------ Editing failed. The JSON file cannot be read or written."
+	},
+	"configWidgetAddFailed": {
+		"chinese": "json-error-configWidget------添加失败,无法读写json文件!!",
+		"english": "json-error-configWidget ------ Adding failed. The JSON file cannot be read or written."
+	},
+	"configWidgetDeleteFailed": {
+		"chinese": "json-error-configWidget------删除失败,无法读写json文件!",
+		"english": "json-error-configWidget ------ Deleting failed. The JSON file cannot be read or written."
+	},
+	"configWidgetChangeFailed": {
+		"chinese": "json-error-configWidget------修改失败,无法读写launch.json文件!",
+		"english": "json-error-configWidget ------ Changing failed. The JSON file cannot be read or written."
+	},
+	"configWidgetReadJsonFailed": {
+		"chinese": "json-error-configWidget------读写json文件失败!",
+		"english": "json-error-configWidget------Failed to read and write the JSON file."
+	},
+	"configWidgetNoRelease": {
+		"chinese": "json-configWidget------文件目录不存在release签名，请先创建release签名！",
+		"english": "json-configWidget ------ The release signature does not exist in the file directory. Create a release signature first."
+	},
+	"configWidgetAddSignFailed": {
+		"chinese": "json-error-configWidget------添加签名方式失败,无法读写launch.json文件!",
+		"english": "json-error-configWidget ------ Failed to add a signature mode. The launch.json file cannot be read or written."
+	},
+	"necessary": {
+		"chinese": "必选",
+		"english": "Necessary"
+	},
+	"type": {
+		"chinese": "类型",
+		"english": "Type"
+	},
+	"oridinaryWidget": {
+		"chinese": "普通卡片",
+		"english": "normal widget"
+	},
+	"multimodal": {
+		"chinese": "多模态卡片",
+		"english": "resident screen"
+	},
+	"createSubpackage": {
+		"chinese": "设置子包",
+		"english": "Set Subpackage"
+	},
+	"subpackageName": {
+		"chinese": "子包名称:",
+		"english": "Subpackage Name:"
+	},
+	"inputSubpackageName": {
+		"chinese": "子包名称只允许使用字母,数字,长度1-255",
+		"english": "Allowed: letters, digits, and Length: 1–255 characters"
+	},
+	"infoSubpackageName": {
+		"chinese": "子包名称1~255字符",
+		"english": "Length: 1–255 characters"
+	},
+	"infoSubpackageNameNotNull": {
+		"chinese": "子包名称非空,只允许使用字母,数字",
+		"english": "Not null,Allowed: letters, digits"
+	},
+	"subPackageReadJsonFileInformationFailed": {
+		"chinese": "json-error-subPackage------读取json文件信息失败,请检查json文件格式是否正确!",
+		"english": "json-error-subPackage ------ Failed to read the JSON file. Check whether the JSON file format is correct."
+	},
+	"isStayWord": {
+		"chinese": "是保留字，不能作为文件名",
+		"english": " are reserved words and cannot be used as a file name."
+	},
+	"useShortName": {
+		"chinese": "此处输入的文件名,导致文件路径过长,请使用短一点的名称.",
+		"english": "The file name makes the file path overlong. Enter a shorter file name."
+	},
+	"infoFileName": {
+		"chinese": "文件名,只允许使用数字、字母、“_”",
+		"english": "File name. Only digits, letters, and underscores (_) are allowed."
+	},
+	"useOtherName": {
+		"chinese": "不能作为文件名.请使用其他名称.",
+		"english": " cannot be used as a file name. Enter another name."
+	},
+	"notFinishWithSpot": {
+		"chinese": "文件名不能以\" . \"结束 ",
+		"english": "This field cannot end with a period (.). "
+	},
+	"fileNameDoNotUseChinese": {
+		"chinese": "文件名不能存在中文字符",
+		"english": "This field cannot contain Chinese characters."
+	},
+	"pathIsExistInSrc": {
+		"chinese": "此路径在src目录下已经存在，请使用不同的路径",
+		"english": "The path already exists in the src directory. Enter a different path."
+	},
+	"pathIsExistInManifest": {
+		"chinese": "此路径在项目配置文件中已经存在，请使用不同的路径",
+		"english": "The path already exists in the project configuration file. Enter a different path."
+	},
+	"inputPathHereTooLong": {
+		"chinese": "此处输入的路径名称，导致系统路径过长，请使用短一点的名称",
+		"english": "The path name makes the system path overlong. Enter a shorter path name."
+	},
+	"pathWithFolderNameNotNull": {
+		"chinese": "路径中包含的文件夹名称不能为空",
+		"english": "This field cannot be left blank."
+	},
+	"pathWithFolderRule": {
+		"chinese": "路径中包含的文件夹名称,只允许使用数字、字母(大小写)和下划线“_”",
+		"english": "Folder name in the path. Only digits, lowercase and uppercase letters, and underscores (_) are allowed."
+	},
+	"pathWithFileNameNotFinishWithpoint": {
+		"chinese": "路径中包含的文件名不能以\" . \"结束 ",
+		"english": "This field cannot end with a period (.)."
+	},
+	"name": {
+		"chinese": "名称",
+		"english": "Name"
+	},
+	"ManufacturerFormat": {
+		"chinese": "支持厂商格式有误，重置为[\"huawei\"]",
+		"english": "The vendor format is incorrect. Reset it to [\"huawei\"]"
+	},
+	"resolutionConfig": {
+		"chinese": "分辨率",
+		"english": "Resolution"
+	},
+	"inputResolution": {
+		"chinese": "自定义分辨率",
+		"english": "Customize Resolution"
+	},
+	"inputResolution_error_msg": {
+		"chinese": "分辨率格式为\"number*number\"。",
+		"english": "Resolution format is \"number*number\"."
+	},
+	"resolutionConfigTitle": {
+		"chinese": "强制设备渲染区域按照设置分辨率显示，方便用户模拟机车等屏幕适配。建议使用高分辨率设备，当设置分辨率大于设备实际分辨率时，会等比进行缩放，可能影响mediaquery特性。仅车机平台有效。",
+		"english": "Resolution of the rendering area. You are advised to use a high-resolution terminal. If the configured resolution is greater than the actual resolution of the terminal, scaling is performed at a fixed aspect ratio, which may affect the mediaquery feature. This function is only applicable to the automotive."
+	},
+	"paramValueNotEmpty": {
+		"chinese": "参数值不能为空！",
+		"english": "Cannot be left blank."
+	},
+	"paramDescNotEmpty": {
+		"chinese": "参数描述不能为空！",
+		"english": "Cannot be left blank."
+	},
+	"configProjectTitle": {
+		"chinese": "工程",
+		"english": "Project"
+	},
+	"configPlatform": {
+		"chinese": "设置运行平台",
+		"english": "Set the operating platform"
+	},
+	"phone": {
+		"chinese": "手机/平板",
+		"english": "Phone/Tablet"
+	},
+	"monitor": {
+		"chinese": "大屏",
+		"english": "Monitor"
+	},
+	"automotive": {
+		"chinese": "车机",
+		"english": "Automotive"
+	},
+	"publishArea": {
+		"chinese": "快应用发布地区",
+		"english": "Release Area"
+	},
+	"chinese": {
+		"chinese": "中国",
+		"english": "China"
+	},
+	"otherArea": {
+		"chinese": "全球",
+		"english": "Global"
+	},
+	"areaInfo1": {
+		"chinese": "快应用规范在不同发布地区存在差异，请选择当前开发快应用的发布区域。",
+		"english": "The fast application specifications vary depending on the area where it is released. Select the corresponding area."
+	},
+	"areaInfo2": {
+		"chinese": "规范差异请参见<a id='documentLink'>官方文档</a>。",
+		"english": "For specifications details, see the <a id='documentLink'>official document</a>."
+	},
+	"quickappIntroUrl": {
+		"chinese": "https://developer.huawei.com/consumer/cn/doc/development/quickApp-Guides/quickapp-introduction",
+		"english": "https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-introduction"
+	},
+	"setResolution": {
+		"chinese": "设置分辨率",
+		"english": "Resolution"
+	},
+	"errorResolutionFormat": {
+		"chinese": "分辨率格式不正确。",
+		"english": "Incorrect resolution format."
+	},
+	"resolutionInfo1": {
+		"chinese": "设置用于渲染快应用的模拟屏幕分辨率、建议接入的调试设备的宽分辨率与所选择的宽分辨率一致或接近，否则模拟渲染的效果会与真实设备上的存在差异：",
+		"english": "Used to set the resolution of the simulated screen used for rendering fast applications and the recommended width resolution of the connected debugging device to be the same as or close to the selected width resolution. Otherwise, the effect of the simulated rendering will be different from that of the real device."
+	},
+	"resolutionInfo2": {
+		"chinese": "（1） 设置分辨率宽远小于设备宽，系统组件渲染偏大。",
+		"english": "(1) The resolution width is much smaller than the device width, and the system component rendering is large."
+	},
+	"resolutionInfo3": {
+		"chinese": "（2） 当设置分辨率大于设备实际分辨率时，会等比进行缩放，可能影响mediaquery特性。",
+		"english": "(2) When the configured resolution is greater than the actual resolution of the device, the mediaquery feature may be affected."
+	},
+	"resolutionInfo4": {
+		"chinese": "（3） 车机平台因系统主题差异，建议使用<a id='emulatorLink'>车机模拟器</a>。",
+		"english": "(3) <a id='emulatorLink'>Emulator</a> is recommended because of the system theme difference."
+	},
+	"emulatorGuideLink": {
+		"chinese": "https://developer.huawei.com/consumer/cn/doc/quickapp-simulator-guide",
+		"english": "https://developer.huawei.com/consumer/cn/doc/quickapp-simulator-guide"
+	},
+	"customize": {
+		"chinese": "自定义",
+		"english": "Customize"
+	},
+	"expand": {
+		"chinese": "展开",
+		"english": "Expand"
+	},
+	"fold": {
+		"chinese": "折叠",
+		"english": "Fold"
+	},
+	"apply": {
+		"chinese": "应用",
+		"english": "Apply"
+	},
+	"suchAs": {
+		"chinese": "例如1960*1080",
+		"english": "Such as 1960*1080"
+	},
+	"successApply": {
+		"chinese": "应用成功！",
+		"english": "Apply successfully!"
+	},
+	"fullScreen": {
+		"chinese": "全屏",
+		"english": "Full screen"
+	},
+	"Configuration": {
+		"chinese": "配置",
+		"english": "Configuration"
+	},
+	"custom": {
+		"chinese": "自定义",
+		"english": "custom"
+	},
+	"confirm": {
+		"chinese": "同意",
+		"english": "Agree"
+	},
+	"privacy-title": {
+		"chinese": "欢迎使用 Huawei QuickApp IDE",
+		"english": "Welcome to Huawei QuickApp IDE"
+	},
+	"first-content": {
+		"chinese": "点击“同意”，即表示您同意 ",
+		"english": "By clinking AGREE, you indicate that you agree to the "
+	},
+	"and-content": {
+		"chinese": " 和 ",
+		"english": " and "
+	},
+	"developer-pricinple": {
+		"chinese": "华为开发者服务协议",
+		"english": "Huawei Developer Service Agreement"
+	},
+	"privacy": {
+		"chinese": "华为开发者联盟与隐私的声明",
+		"english": "Huawei Developer Alliance and Privacy Statement"
+	},
+	"refuse": {
+		"chinese": "拒绝",
+		"english": "Refuse"
+	},
+	"confirmBtn": {
+		"chinese": "确定",
+		"english": "Confirm"
+	},
+	"pricinple-title": {
+		"chinese": "开发者服务协议",
+		"english": "HUAWEI Developer Service Agreement"
+	},
+	"pricinple-content-part1": {
+		"chinese": "您在使用Cloud Debugging测试服务时，不得在华为提供的任何测试设备中留存任何个人信息。",
+		"english": "When using any Cloud Debugging services, you shall not leave any Personal Data on any test devices provided by Huawei in such service,"
+	},
+	"pricinple-content-part2": {
+		"chinese": "否则，因您违反前述约定而导致的任何后果和责任（包括但不限于该等个人信息的安全问题），将由您自行承担。华为不会为此承担任何责任。",
+		"english": "otherwise you shall bear any and all legal consequences and liabilities arising out of any Personal Data you left on such test devices. "
+	},
+	"pricinple-content-part3": {
+		"chinese": "当您停止使用Cloud Debugging测试服务后，系统将删除您在测试设备上上传的任何APK包、应用及相关测试数据。",
+		"english": "After you stop using the Cloud Debugging services, the system shall remove all the APKs and software applications that you uploaded on the test devices along with all related data."
+	},
+	"privacyTitle": {
+		"chinese": "关于华为开发者联盟与隐私的申明",
+		"english": "Statement About HUAWEI Developer and Privacy"
+	},
+	"privacyContent": {
+		"chinese": "更新时间: 2020年05月30日",
+		"english": "May 30, 2020"
+	},
+	"privacy-main-content": {
+		"chinese": "我们如何收集和使用您的个人信息",
+		"english": "What data do we collect about you?"
+	},
+	"realname": {
+		"chinese": "实名认证",
+		"english": ""
+	},
+	"realname_content_p1": {
+		"chinese": "华为为您提供内容分发和推广服务。根据国家相关法律要求，您在使用服务前需要完成用户实名认证，以确定您的合法身份。",
+		"english": "As part of the HUAWEI Developer services, we will collect and use your personal data, only for the purposes stated in this Statement. The 'personal data' herein refers to any information that enables us to identify you as a user of the HUAWEI Developer services."
+	},
+	"realname_content_p2": {
+		"chinese": "如果您是个人开发者，您可以通过向我们提交姓名、地区、地址、电话、邮箱、身份证号码、身份证扫描件、昵称、获取渠道信息和QQ号（可选），或通过个人银行卡信息来完成实名认证。若您选择个人银行卡认证服务，我们将收集您的的姓名、身份证号码、银行卡卡号、电话分享给银联进行身份验证。前述信息中身份证号码、银行卡卡号、身份证扫描件属于个人敏感信息，收集此类信息是用于验证身份帮助您完成实名注册认证所需。",
+		"english": "If you are an individual developer:\nIdentification information: such as legal name, identification document(s) (copy of your valid ID, such as passport, national identity card, or driver's license, and copy of your bank card), developer name/nickname, portrait uploaded by you, street address, city, country, phone number, and email address.\nFinancial information: such as bank name, branch name, branch number, IBAN, SWIFT code (BIC), account name, account type, K/C, tax payer ID, VAT number, tax address, tax qualification file, account number, currency type, bank country, and bank information confirmation letter.\nProduct management information: such as developer name, developer user ID, developer registration account (HUAWEI ID account identifier), developer type, country ID, contact information (phone number and email address), testing account(s), product package, and related technical information such as signature key, product comments, and feedback.\nNetwork and usage information: such as IP address, language, webpage location and title, webpage request type, click events and other browsing information, brief information on problems encountered during usage, problem description and attachments, and cookie data. Learn more about how we use cookies."
+	},
+	"realname_content_p3": {
+		"chinese": "如果您是企业开发者，您可以通过向我们提交照片或视频完成认证，我们将收集您提供给我们的企业全称、企业证件号码、地区、企业地址、联系人信息（姓名、邮箱、电话）、企业营业执照扫描件、税务登记证扫描件、组织机构代码证扫描件、企业法人代表身份证明材料、昵称、获知渠道信息和QQ号（可选），或通过企业对公银行账户信息完成认证，若您选择对公银行打款认证服务，我们将收集您的企业全称、企业证件号码、地区、企业地址、联系人信息（姓名、邮箱、电话）、获知渠道信息、QQ号（可选）、企业银行账户信息（开户银行、开户行支行、开户行号、开户名、企业对公帐号）分享给招商银行进行身份验证。前述信息中企业法人代表身份证扫描件属于个人敏感信息，收集此类信息的目的是为了认证您的身份，保障合同效力。",
+		"english": "If you are an employee/representative of an enterprise developer:\nIdentification information: contact person name, job title, work phone number, and work email address.\nProduct management information: developer user ID, developer registration account (HUAWEI ID account identifier), contact information (phone number and email address), testing account(s),\nNetwork and usage information: IP address, language, webpage location and title, webpage request type, click events and other browsing information, brief information on problems encountered during usage, problem description and attachments, and cookie data. Learn more about how we use cookies.\nIf you are a member of a developer's team account, the following additional data is collected and processed:\nAccount information, such as your HUAWEI ID account name, portrait uploaded by you, and email address;\nService usage information, such as service use and issues or questions that you submit;\nNetwork information, such as your IP address; and\nInformation related to your team account, such as your role and the rights granted to you by the team admin.\nIf you are using remote device testing function, the following data is collected and processed:\nAll testing data of your app that you have installed on the remote virtual or physical devices hosted by us."
+	},
+	"remote-service-title": {
+		"chinese": "云测试和云调试",
+		"english": "Cloud Test and Cloud Debugging"
+	},
+	"remote-service-content": {
+		"chinese": "为了帮助开发者了解APP在华为手机上安装、运行的详细情况，或针对某些特定机型定位问题，您可能会使用我们提供的APP云测试和云调试服务。在使用过程中，我们需要收集个人账号的UserID来关联服务记录行为如任务记录、测试报告等，来评估和保证服务的可用性。",
+		"english": "To help developers understand the details about app installation and running on Huawei mobile phones or locate problems on specific mobile phones, you may use the app cloud test and cloud debugging services provided by Huawei. During the use, you need to collect the user ID of the individual account to associate with service records, such as task records and test reports, to evaluate and ensure service availability."
+	},
+	"swanPageConfigPromp": {
+		"chinese": "Swan快应用新建页面暂不支持自动配置页面，需要您根据自己创建的页面进行配置后才能使用！",
+		"english": "The Swan quick app creation page does not support automatic configuration. You need to configure the page based on the created page before using it."
+	}
+}
